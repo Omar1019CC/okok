@@ -27,7 +27,7 @@ pipelines:
             - node
           deployment: staging
           script:
-            - cd ./cancun_Adventures/
+            - cd ./cancun_Adventures
             - npm install
             - npm install -g @angular/cli@latest
             - npm install sweetalert2
